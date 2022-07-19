@@ -1,0 +1,17 @@
+
+<suite name="Suite">
+<groups>
+<run>
+<include name="Smoke"></include>
+<include name="Regression"></include>
+</run>
+
+</groups>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.groups.parameters.Group_Smoke_Regression2"/>
+      <class name="com.groups.parameters.Group_Smoke_Regression1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
