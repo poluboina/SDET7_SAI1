@@ -1,4 +1,4 @@
-package com.Vtiger;
+package com.Vtiger.tstcases;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -9,10 +9,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-import com.ObjectRepo.CreateOrgPage;
-import com.ObjectRepo.HomePage;
-import com.ObjectRepo.LoginPage;
-import com.ObjectRepo.OrganizationsInfoPage;
+import com.ObjectRepo.POM.CreateOrgPage;
+import com.ObjectRepo.POM.HomePage;
+import com.ObjectRepo.POM.LoginPage;
+import com.ObjectRepo.POM.OrganizationsInfoPage;
 import com.VTiger.generic.Webdriver_Utility;
 import com.github.javafaker.Faker;
 

@@ -1,6 +1,7 @@
 package com.VTiger.generic;
 
 import java.time.Duration;
+import java.util.Set;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,8 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Webdriver_Utility {
 
-	 
-		WebDriver driver;
+	 WebDriver driver;
 		
 	public 	Webdriver_Utility(WebDriver driver) {
 		
@@ -77,6 +77,17 @@ public class Webdriver_Utility {
 		driver.switchTo().alert().accept();
 		
 	}
+	
+	public void switchtoinsidewindow() {
+		String mainId=driver.getWindowHandle();
+		Set<String> allId = driver.getWindowHandles();
+		for(String i:allId) {
+			if(!mainId.equals(i)) {
+				driver.switchTo().window(i);
+			}
+		}
+	}
+	
 	
 	}
 

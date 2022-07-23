@@ -3,11 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.groups.parameters.Prameter_1">
+      <class name="com.Sai.TestCases.SaiConTC">
         <methods>
-          <include name="para1"/>
+          <include name="closeDatabase"/>
+          <include name="closingBrowser"/>
+          <include name="logout"/>
+          <include name="saiConTC"/>
+          <include name="login"/>
+          <include name="connectDatabase"/>
+          <include name="lanchBrowser"/>
         </methods>
-      </class> <!-- com.groups.parameters.Prameter_1 -->
+      </class> <!-- com.Sai.TestCases.SaiConTC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

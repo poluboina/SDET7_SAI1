@@ -1,4 +1,4 @@
-package com.ObjectRepo;
+package com.ObjectRepo.POM;
 
 
 
@@ -69,5 +69,14 @@ public class OrganizationsInfoPage {
 	public WebElement getDeletebtn() {
 		return deletebtn;
 	}
+	
+	@FindBy(xpath="//span[@class='genHeaderSmall']")
+	private WebElement deleorgverifyheader;
+
+	public WebElement getDeleorgverifyheader() {
+		return deleorgverifyheader;
+	}
+	
+	
 		
 }

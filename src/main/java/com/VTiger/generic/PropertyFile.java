@@ -21,7 +21,7 @@ public static PropertyFile propertyfile;
 	
 
 	
-	public String readDatafromPropertyfile(String key) throws IOException {
+	public  String readDatafromPropertyfile(String key) throws IOException {
 	FileInputStream fis=new FileInputStream("../SDET7_SAI/SDET7.PROPERTIES.txt");
 	Properties prop=new Properties();
 	prop.load(fis);

@@ -1,4 +1,4 @@
-package com.Vtiger;
+package com.Vtiger.tstcases;
 
 import java.time.Duration;
 import java.util.Random;
@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-import com.ObjectRepo.LoginPage;
+import com.ObjectRepo.POM.LoginPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 

@@ -1,4 +1,4 @@
-package com.ObjectRepo;
+package com.ObjectRepo.POM;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -21,7 +21,16 @@ public class ContactInfoPage {
 	public WebElement getCreatecontlinkbtn() {
 		return createcontlinkbtn;
 	}
+	
+	@FindBy(xpath="bas_searchfield")
+	private WebElement selectDDlinkbtn;
 	 
+	public WebElement getSelectDDlinkbtn() {
+		return selectDDlinkbtn;
+	}
+
+
+
 	@FindBy(xpath="//span[@class='dvHeaderText']")
 	 private WebElement verifyheadertext;
 

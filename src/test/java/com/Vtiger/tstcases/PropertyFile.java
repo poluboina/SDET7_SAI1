@@ -1,4 +1,4 @@
-package com.Vtiger;
+package com.Vtiger.tstcases;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
