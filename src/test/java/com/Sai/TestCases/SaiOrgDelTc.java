@@ -37,14 +37,14 @@ public class SaiOrgDelTc extends BaseUtility {
 
 		CreateOrgPage createOrgPage=new CreateOrgPage(driver);
 		createOrgPage.getOrgnametxtbox().sendKeys(orgname);
-		
+
 		createOrgPage.getSavebtn().click();
-		
+
 		Thread.sleep(3000);
 
 		homepage.getOrglinkbtn().click();
 
-		
+
 		try {
 			organizationsInfoPage.getSearchorgtxtbox().sendKeys(orgname);
 		} catch (Exception e) {
@@ -54,7 +54,7 @@ public class SaiOrgDelTc extends BaseUtility {
 
 		Thread.sleep(1000);
 		organizationsInfoPage.getSelectorgtypeDD().click();
-		
+
 		webdriver_utillity.selectDD(organizationsInfoPage.getSelectorgtypeDD(), 1);
 
 		Thread.sleep(1000);
@@ -63,13 +63,14 @@ public class SaiOrgDelTc extends BaseUtility {
 
 		Thread.sleep(2000);
 		organizationsInfoPage.getCheckboxbtn().click();
-		
+
 		organizationsInfoPage.getDeletebtn().click();
 
 		webdriver_utillity.acceptAlert();
 
 		Thread.sleep(2000);
-			WebElement orgHeader = organizationsInfoPage.getDeleorgverifyheader();
+
+		WebElement orgHeader = organizationsInfoPage.getDeleorgverifyheader();
 
 		if(orgHeader.isDisplayed()) {
 			System.out.println("TestCase is Passed");
@@ -77,7 +78,7 @@ public class SaiOrgDelTc extends BaseUtility {
 		else {
 			System.out.println("TestCase is failed");
 		}
-		
+
 	}
 }
 

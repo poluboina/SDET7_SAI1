@@ -77,6 +77,14 @@ public class OrganizationsInfoPage {
 		return deleorgverifyheader;
 	}
 	
+	@FindBy(xpath="//span[@class='dvHeaderText']")
+	private WebElement orgctdhedverfiy;
+
+	public WebElement getOrgctdhedverfiy() {
+		return orgctdhedverfiy;
+	}
+	
+	
 	
 		
 }

@@ -20,6 +20,7 @@ public class Vitiger_Organization_information_using_Random_TC {
 		Random random=new Random();
 		int i = random.nextInt(100);
 		
+	
 		WebDriver driver;
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
@@ -29,13 +30,10 @@ public class Vitiger_Organization_information_using_Random_TC {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
 		
+	
+		driver.findElement(By.name("user_name")).sendKeys("admin",Keys.TAB,"admin",Keys.TAB,Keys.ENTER);
 		
-		LoginPage loginpage = new LoginPage( driver);
-		loginpage.getUsernametextbox();
-		loginpage.getPasswordtextbox();
-		loginpage.getLoginbtn();
-		
-//		driver.findElement(By.name("user_name")).sendKeys("admin",Keys.TAB,"admin",Keys.TAB,Keys.ENTER);
+		Thread.sleep(3000);
 		driver.findElement(By.xpath("//a[text()='Organizations']")).click();
 		driver.findElement(By.xpath("//img[@src='themes/softed/images/btnL3Add.gif']")).click();
 		driver.findElement(By.name("accountname")).sendKeys("saikrishna"+""+i);

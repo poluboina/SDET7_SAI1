@@ -68,6 +68,16 @@ WebDriver driver;
 		return delheadermsg;
 	}
 
+	@FindBy(xpath="//span[@class='dvHeaderText']")
+	public WebElement camphedVertext;
+
+
+
+	public WebElement getCamphedVertext() {
+		return camphedVertext;
+	}
+	
+	
 	
 
 	
