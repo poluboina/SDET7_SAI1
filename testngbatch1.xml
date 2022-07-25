@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Sai.TestCases.TC_02SaiCamDelTest"/>
+      <class name="com.Sai.TestCases.TC_01SaiConTest"/>
+      <class name="com.Sai.TestCases.TC_04SaiOrgDelTest"/>
+      <class name="com.Sai.TestCases.TC_05SaiCampHeaderVerTest"/>
+      <class name="com.Sai.TestCases.TC_03SaiOrgHeaderVerTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,11 +1,8 @@
 package com.Sai.TestCases;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-import com.ObjectRepo.POM.CampainInfoPage;
 import com.ObjectRepo.POM.CreateOrgPage;
 import com.ObjectRepo.POM.HomePage;
 import com.ObjectRepo.POM.OrganizationsInfoPage;
@@ -13,7 +10,7 @@ import com.VTiger.generic.BaseUtility;
 import com.VTiger.generic.Webdriver_Utility;
 import com.github.javafaker.Faker;
 
-public class SaiOrgDelTc extends BaseUtility {
+public class TC_04SaiOrgDelTest extends BaseUtility {
 
 
 

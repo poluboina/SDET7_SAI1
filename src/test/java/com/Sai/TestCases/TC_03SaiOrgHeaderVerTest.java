@@ -1,6 +1,5 @@
 package com.Sai.TestCases;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
@@ -11,12 +10,12 @@ import com.VTiger.generic.BaseUtility;
 import com.VTiger.generic.Webdriver_Utility;
 import com.github.javafaker.Faker;
 
-public class SaiOrgHeaderVerTC extends BaseUtility{
+public class TC_03SaiOrgHeaderVerTest extends BaseUtility{
 	
 	
 	@Test
 	
-	 public void saiOrgHeaderVerTc() {
+	 public void saiOrgHeaderVerTest() {
 	
 	
 	

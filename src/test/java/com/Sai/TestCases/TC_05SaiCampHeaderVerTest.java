@@ -9,9 +9,9 @@ import com.ObjectRepo.POM.HomePage;
 import com.VTiger.generic.BaseUtility;
 import com.VTiger.generic.FakeData;
 
-public class SaiCampHeaderVerTC extends BaseUtility {
+public class TC_05SaiCampHeaderVerTest extends BaseUtility {
 	@Test
-	public void saiCampHeaderVerTc() throws InterruptedException   {
+	public void saiCampHeaderVerTest() throws InterruptedException   {
 		
 
 		FakeData fakedata = new FakeData();

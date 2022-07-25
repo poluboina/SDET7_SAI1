@@ -1,20 +1,19 @@
 package com.Sai.TestCases;
 
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 import com.ObjectRepo.POM.CampainInfoPage;
 import com.ObjectRepo.POM.CreateCamPage;
 import com.ObjectRepo.POM.HomePage;
+import com.VTiger.generic.BaseUtility;
 import com.VTiger.generic.FakeData;
 import com.VTiger.generic.Webdriver_Utility;
-import com.VTiger.generic.BaseUtility;
 
-public class SaiCamDelTC extends BaseUtility{
+public class TC_02SaiCamDelTest extends BaseUtility{
 
 	@Test
-	public void saiConDelTc() throws Throwable {
+	public void saiConDelTest() throws Throwable {
 
 		FakeData fakedata = new FakeData();
 		String campname = fakedata.companyName();
