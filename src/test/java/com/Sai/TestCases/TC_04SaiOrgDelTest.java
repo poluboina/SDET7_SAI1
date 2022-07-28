@@ -28,6 +28,7 @@ public class TC_04SaiOrgDelTest extends BaseUtility {
 
 		Webdriver_Utility webdriver_utillity = new Webdriver_Utility(driver);
 		webdriver_utillity.maximumWindow();
+		webdriver_utillity.pageLoadTimeout();
 
 		HomePage homepage =new HomePage(driver);
 		homepage.getOrglinkbtn().click();
@@ -40,7 +41,7 @@ public class TC_04SaiOrgDelTest extends BaseUtility {
 
 		createOrgPage.getSavebtn().click();
 
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 
 		homepage.getOrglinkbtn().click();
 
@@ -65,7 +66,7 @@ public class TC_04SaiOrgDelTest extends BaseUtility {
 		organizationsInfoPage.getCheckboxbtn().click();
 
 		organizationsInfoPage.getDeletebtn().click();
-
+		Thread.sleep(2000);
 		
 		webdriver_utillity.acceptAlert();
 

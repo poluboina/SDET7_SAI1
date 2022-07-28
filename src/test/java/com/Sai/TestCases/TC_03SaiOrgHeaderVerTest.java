@@ -27,6 +27,8 @@ public class TC_03SaiOrgHeaderVerTest extends BaseUtility{
 	Webdriver_Utility webdriver_utillity = new Webdriver_Utility(driver);
 	webdriver_utillity.maximumWindow();
 
+	webdriver_utillity.pageLoadTimeout();
+	
 	HomePage homepage =new HomePage(driver);
 	homepage.getOrglinkbtn().click();
 
