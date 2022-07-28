@@ -1,14 +1,21 @@
-package com.VTiger.generic;
+package com.VTigerTest.generic;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
+import java.util.Random;
 import java.util.Set;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.google.common.io.Files;
 
 public class Webdriver_Utility {
 
@@ -86,6 +93,26 @@ public class Webdriver_Utility {
 				driver.switchTo().window(i);
 			}
 		}
+	}
+	public  String screenshot(String name) throws IOException {
+		
+		TakesScreenshot ts = (TakesScreenshot)BaseUtility.sdriver;
+		File src = ts.getScreenshotAs(OutputType.FILE);
+		String path = IAutoconstants.screenshotpath+name+".png";
+		File dest = new File(path);
+		Files.copy(src, dest);
+		return path;
+
+	}
+		
+	
+	
+	public int random() {
+		
+		Random random = new Random();
+		int rnum = random.nextInt(50);
+		
+		return rnum;
 	}
 	
 	

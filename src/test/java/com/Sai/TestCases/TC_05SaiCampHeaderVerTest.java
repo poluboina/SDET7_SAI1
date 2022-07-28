@@ -1,16 +1,19 @@
 package com.Sai.TestCases;
 
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.ObjectRepo.POM.CampainInfoPage;
 import com.ObjectRepo.POM.CreateCamPage;
 import com.ObjectRepo.POM.HomePage;
-import com.VTiger.generic.BaseUtility;
-import com.VTiger.generic.FakeData;
+import com.VTigerTest.generic.BaseUtility;
+import com.VTigerTest.generic.FakeData;
+import com.Vtiger.tstcases.RetryAnalyzer_1;
 
+@Listeners(com.VTigerTest.generic.Listners.class)
 public class TC_05SaiCampHeaderVerTest extends BaseUtility {
-	@Test
+	@Test(priority = 5,retryAnalyzer = RetryAnalyzer_1.class)
 	public void saiCampHeaderVerTest() throws InterruptedException   {
 		
 

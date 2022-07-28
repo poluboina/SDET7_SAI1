@@ -1,18 +1,20 @@
-package com.Sai.TestCases;
+	package com.Sai.TestCases;
 
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.ObjectRepo.POM.CampainInfoPage;
 import com.ObjectRepo.POM.CreateCamPage;
 import com.ObjectRepo.POM.HomePage;
-import com.VTiger.generic.BaseUtility;
-import com.VTiger.generic.FakeData;
-import com.VTiger.generic.Webdriver_Utility;
-
+import com.VTigerTest.generic.BaseUtility;
+import com.VTigerTest.generic.FakeData;
+import com.VTigerTest.generic.Webdriver_Utility;
+import com.Vtiger.tstcases.RetryAnalyzer_1;
+@Listeners(com.VTigerTest.generic.Listners.class)
 public class TC_02SaiCamDelTest extends BaseUtility{
 
-	@Test
+	@Test(priority = 2,retryAnalyzer = RetryAnalyzer_1.class)
 	public void saiConDelTest() throws Throwable {
 
 		FakeData fakedata = new FakeData();
@@ -34,7 +36,6 @@ public class TC_02SaiCamDelTest extends BaseUtility{
 		homepage.getCreatecamplinkbtn().click();
 		
 		
-
 		CreateCamPage createcampage= new CreateCamPage(driver);	
 		createcampage.getFirstnamecamp().sendKeys(campname);
 		createcampage.getSavebtn().click();
@@ -60,9 +61,12 @@ public class TC_02SaiCamDelTest extends BaseUtility{
 		campainInfoPage.getDeletebtn().click();
 
 		webdriver_Utility.acceptAlert();
+		Thread.sleep(3000);
 
 		String str =campainInfoPage.getDelheadermsg().getText();
 		String s1=(campname);
+		
+		Thread.sleep(2000);
 		if(s1.contains(str)) {
 			System.out.println("Campaign is not deleted Test Fail");
 		}

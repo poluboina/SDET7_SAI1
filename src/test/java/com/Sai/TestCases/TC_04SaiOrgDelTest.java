@@ -1,23 +1,26 @@
 package com.Sai.TestCases;
 
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.ObjectRepo.POM.CreateOrgPage;
 import com.ObjectRepo.POM.HomePage;
 import com.ObjectRepo.POM.OrganizationsInfoPage;
-import com.VTiger.generic.BaseUtility;
-import com.VTiger.generic.Webdriver_Utility;
+import com.VTigerTest.generic.BaseUtility;
+import com.VTigerTest.generic.Webdriver_Utility;
+import com.Vtiger.tstcases.RetryAnalyzer_1;
 import com.github.javafaker.Faker;
 
+@Listeners(com.VTigerTest.generic.Listners.class)
 public class TC_04SaiOrgDelTest extends BaseUtility {
 
 
 
 
 
-	@Test
-	public void createOrgTest() throws InterruptedException
+	@Test(priority = 4,retryAnalyzer = RetryAnalyzer_1.class)
+	public void createOrgTest() throws Throwable
 	{
 
 		Faker faker=new Faker();
@@ -28,7 +31,7 @@ public class TC_04SaiOrgDelTest extends BaseUtility {
 
 		HomePage homepage =new HomePage(driver);
 		homepage.getOrglinkbtn().click();
-
+	
 		OrganizationsInfoPage organizationsInfoPage=new	OrganizationsInfoPage(driver);
 		organizationsInfoPage.getCreateorglinkbtn().click();
 
@@ -63,12 +66,14 @@ public class TC_04SaiOrgDelTest extends BaseUtility {
 
 		organizationsInfoPage.getDeletebtn().click();
 
+		
 		webdriver_utillity.acceptAlert();
 
 		Thread.sleep(2000);
 
 		WebElement orgHeader = organizationsInfoPage.getDeleorgverifyheader();
-
+		Thread.sleep(2000);
+	
 		if(orgHeader.isDisplayed()) {
 			System.out.println("TestCase is Passed");
 		}

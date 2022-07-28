@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Sai.TestCases.SaiConTC">
+      <class name="com.Sai.TestCases.TC_03SaiOrgHeaderVerTest">
         <methods>
-          <include name="closeDatabase"/>
-          <include name="closingBrowser"/>
-          <include name="logout"/>
-          <include name="saiConTC"/>
-          <include name="login"/>
           <include name="connectDatabase"/>
           <include name="lanchBrowser"/>
+          <include name="login"/>
+          <include name="closingBrowser"/>
+          <include name="saiOrgHeaderVerTest"/>
+          <include name="closeDatabase"/>
+          <include name="logout"/>
         </methods>
-      </class> <!-- com.Sai.TestCases.SaiConTC -->
+      </class> <!-- com.Sai.TestCases.TC_03SaiOrgHeaderVerTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

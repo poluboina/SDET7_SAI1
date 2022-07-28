@@ -1,7 +1,9 @@
-package com.VTiger.generic;
+package com.VTigerTest.generic;
 
+import java.io.File;
 import java.io.IOException;
-
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -13,12 +15,17 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import com.ObjectRepo.POM.HomePage;
 import com.ObjectRepo.POM.LoginPage;
+import com.google.common.io.Files;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class BaseUtility {
+public class BaseUtility implements IAutoconstants{
 
-	public static WebDriver driver;
+	
+	
+	
+	public WebDriver driver;
+	public static WebDriver sdriver;
 	
 	PropertyFile propertyFile = PropertyFile.getObjectProperty();		
 	
@@ -33,7 +40,7 @@ public class BaseUtility {
 	@BeforeClass
 	public void lanchBrowser() throws Throwable {
 
-
+		
 
 		String BROWSER=propertyFile.readDatafromPropertyfile("browser");
 		if(BROWSER.equalsIgnoreCase("chrome")) {
@@ -56,7 +63,7 @@ public class BaseUtility {
 		dUtil.maximumWindow();
 		dUtil.pageLoadTimeout();
 		driver.get(propertyFile.readDatafromPropertyfile("url"));
-		
+		sdriver=driver;
 	}
 
 	@BeforeMethod
@@ -90,5 +97,17 @@ public class BaseUtility {
 		System.out.println("closeDataBase");
 	}
 
-}
+	public  static String screenshot(String name) throws IOException {
+		
+			TakesScreenshot ts = (TakesScreenshot)BaseUtility.sdriver;
+			File src = ts.getScreenshotAs(OutputType.FILE);
+			String path = IAutoconstants.screenshotpath+name+".png";
+			File dest = new File(path);
+			Files.copy(src, dest);
+			return path;
+
+		}
+		
+	}
+
 

@@ -16,15 +16,15 @@ public class OrganizationsInfoPage {
 	}
 
 
-	@FindBy (xpath="//img[@title='Create Organization...']")
+	@FindBy (xpath="//img[@title='Create Organization...']")       //(//a[.='Organizations'])[1]
 	private WebElement createorglinkbtn;
-	
+
 	public WebElement getCreateorglinkbtn() {
 		return createorglinkbtn;
 	}
 
 	@FindBy(name="search_text")
-	private WebElement searchorgtxtbox;
+	private WebElement searchorgtxtbox;           //img[@title='Create Organization...']
 
 	@FindBy(id="bas_searchfield")
 	private WebElement selectorgtypeDD;

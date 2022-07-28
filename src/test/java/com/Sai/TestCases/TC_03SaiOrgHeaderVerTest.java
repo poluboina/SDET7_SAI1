@@ -1,21 +1,23 @@
 package com.Sai.TestCases;
 
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.ObjectRepo.POM.CreateOrgPage;
 import com.ObjectRepo.POM.HomePage;
 import com.ObjectRepo.POM.OrganizationsInfoPage;
-import com.VTiger.generic.BaseUtility;
-import com.VTiger.generic.Webdriver_Utility;
+import com.VTigerTest.generic.BaseUtility;
+import com.VTigerTest.generic.Webdriver_Utility;
+import com.Vtiger.tstcases.RetryAnalyzer_1;
 import com.github.javafaker.Faker;
-
+@Listeners(com.VTigerTest.generic.Listners.class)
 public class TC_03SaiOrgHeaderVerTest extends BaseUtility{
 	
 	
-	@Test
+	@Test(priority = 3,retryAnalyzer = RetryAnalyzer_1.class)
 	
-	 public void saiOrgHeaderVerTest() {
+	 public void saiOrgHeaderVerTest() throws InterruptedException {
 	
 	
 	
@@ -30,13 +32,20 @@ public class TC_03SaiOrgHeaderVerTest extends BaseUtility{
 
 	OrganizationsInfoPage organizationsInfoPage=new	OrganizationsInfoPage(driver);
 	organizationsInfoPage.getCreateorglinkbtn().click();
-
+	
+	Thread.sleep(2000);
+	
 	CreateOrgPage createOrgPage=new CreateOrgPage(driver);
 	createOrgPage.getOrgnametxtbox().sendKeys(orgname);
 
 	createOrgPage.getSavebtn().click();
 	
+//	webdriver_utillity.refreshPage();
+	
+	Thread.sleep(5000);
 	WebElement orgHeaderverify = organizationsInfoPage.getOrgctdhedverfiy();
+	
+	
 	
 	if(orgHeaderverify.isDisplayed()) {
 		

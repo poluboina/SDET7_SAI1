@@ -1,4 +1,4 @@
-package com.VTiger.generic;
+package com.VTigerTest.generic;
 
 import com.github.javafaker.Faker;
 

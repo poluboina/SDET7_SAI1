@@ -2,12 +2,12 @@ package com.UsageListners;
 
 import java.io.File;
 import java.io.IOException;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import org.testng.annotations.Test;
 
 public class ListnerImplements implements ITestListener {
 

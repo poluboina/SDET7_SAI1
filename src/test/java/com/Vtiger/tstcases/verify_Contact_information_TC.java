@@ -17,8 +17,8 @@ import com.ObjectRepo.POM.ContactInfoPage;
 import com.ObjectRepo.POM.CreateContPage;
 import com.ObjectRepo.POM.HomePage;
 import com.ObjectRepo.POM.LoginPage;
-import com.VTiger.generic.FakeData;
-import com.VTiger.generic.Webdriver_Utility;
+import com.VTigerTest.generic.FakeData;
+import com.VTigerTest.generic.Webdriver_Utility;
 import com.github.javafaker.Faker;
 
 import io.github.bonigarcia.wdm.WebDriverManager;

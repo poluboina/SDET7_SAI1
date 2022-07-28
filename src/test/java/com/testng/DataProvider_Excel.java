@@ -2,7 +2,7 @@ package com.testng;
 
 import org.testng.annotations.DataProvider;
 
-import com.VTiger.generic.ExcelUsage;
+import com.VTigerTest.generic.ExcelUsage;
 
 
 public class DataProvider_Excel {

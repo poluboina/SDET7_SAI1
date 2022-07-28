@@ -1,4 +1,4 @@
-package com.VTiger.generic;
+package com.VTigerTest.generic;
 
 import java.io.FileInputStream;
 import java.io.IOException;

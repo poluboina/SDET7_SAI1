@@ -2,17 +2,20 @@ package com.Sai.TestCases;
 
 import java.io.IOException;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.ObjectRepo.POM.ContactInfoPage;
 import com.ObjectRepo.POM.CreateContPage;
 import com.ObjectRepo.POM.HomePage;
-import com.VTiger.generic.BaseUtility;
-import com.VTiger.generic.Webdriver_Utility;
+import com.VTigerTest.generic.BaseUtility;
+import com.VTigerTest.generic.Webdriver_Utility;
+import com.Vtiger.tstcases.RetryAnalyzer_1;
 import com.github.javafaker.Faker;
 
+@Listeners(com.VTigerTest.generic.Listners.class)
 public class TC_01SaiConTest extends BaseUtility {
-	@Test
+	@Test(priority =1,retryAnalyzer = RetryAnalyzer_1.class)
 	public void saiConTest() throws IOException, InterruptedException  {
 	
 		
@@ -20,6 +23,7 @@ public class TC_01SaiConTest extends BaseUtility {
 		String contname = faker.name().firstName();
 //		Random random=new Random();
 //		int num = random.nextInt(20);
+		
 		
 		Webdriver_Utility webdriver_utillity = new Webdriver_Utility(driver);
 		

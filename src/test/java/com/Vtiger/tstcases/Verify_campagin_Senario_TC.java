@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-import com.VTiger.generic.FakeData;
+import com.VTigerTest.generic.FakeData;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 

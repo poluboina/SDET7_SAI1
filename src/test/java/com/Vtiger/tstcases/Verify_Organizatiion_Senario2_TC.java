@@ -13,7 +13,7 @@ import com.ObjectRepo.POM.CreateOrgPage;
 import com.ObjectRepo.POM.HomePage;
 import com.ObjectRepo.POM.LoginPage;
 import com.ObjectRepo.POM.OrganizationsInfoPage;
-import com.VTiger.generic.Webdriver_Utility;
+import com.VTigerTest.generic.Webdriver_Utility;
 import com.github.javafaker.Faker;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
