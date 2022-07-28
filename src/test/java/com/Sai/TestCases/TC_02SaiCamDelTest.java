@@ -14,7 +14,7 @@ import com.Vtiger.tstcases.RetryAnalyzer_1;
 @Listeners(com.VTigerTest.generic.Listners.class)
 public class TC_02SaiCamDelTest extends BaseUtility{
 
-	@Test(priority = 2,retryAnalyzer = RetryAnalyzer_1.class)
+	@Test(groups = "smoke",priority = 2,retryAnalyzer = RetryAnalyzer_1.class)
 	public void saiConDelTest() throws Throwable {
 
 		FakeData fakedata = new FakeData();
@@ -22,7 +22,7 @@ public class TC_02SaiCamDelTest extends BaseUtility{
 
 
 		Webdriver_Utility webdriver_Utility=new Webdriver_Utility(driver);
-
+			webdriver_Utility.pageLoadTimeout();
 
 
 		HomePage homepage=new HomePage(driver);
@@ -62,6 +62,7 @@ public class TC_02SaiCamDelTest extends BaseUtility{
 
 		webdriver_Utility.acceptAlert();
 		Thread.sleep(3000);
+		webdriver_Utility.pageLoadTimeout();
 
 		String str =campainInfoPage.getDelheadermsg().getText();
 		String s1=(campname);

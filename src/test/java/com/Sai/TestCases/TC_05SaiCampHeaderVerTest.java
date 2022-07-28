@@ -13,7 +13,7 @@ import com.Vtiger.tstcases.RetryAnalyzer_1;
 
 @Listeners(com.VTigerTest.generic.Listners.class)
 public class TC_05SaiCampHeaderVerTest extends BaseUtility {
-	@Test(priority = 5,retryAnalyzer = RetryAnalyzer_1.class)
+	@Test(groups = {"smoke","regression"},priority = 5,retryAnalyzer = RetryAnalyzer_1.class)
 	public void saiCampHeaderVerTest() throws InterruptedException   {
 		
 

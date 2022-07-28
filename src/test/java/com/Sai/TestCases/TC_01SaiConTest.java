@@ -15,7 +15,7 @@ import com.github.javafaker.Faker;
 
 @Listeners(com.VTigerTest.generic.Listners.class)
 public class TC_01SaiConTest extends BaseUtility {
-	@Test(priority =1,retryAnalyzer = RetryAnalyzer_1.class)
+	@Test(groups = "smoke",priority =1,retryAnalyzer = RetryAnalyzer_1.class)
 	public void saiConTest() throws IOException, InterruptedException  {
 	
 		

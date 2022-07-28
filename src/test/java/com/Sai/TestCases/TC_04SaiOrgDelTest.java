@@ -19,7 +19,7 @@ public class TC_04SaiOrgDelTest extends BaseUtility {
 
 
 
-	@Test(priority = 4,retryAnalyzer = RetryAnalyzer_1.class)
+	@Test(groups = "regression",priority = 4,retryAnalyzer = RetryAnalyzer_1.class)
 	public void createOrgTest() throws Throwable
 	{
 
@@ -68,9 +68,11 @@ public class TC_04SaiOrgDelTest extends BaseUtility {
 		organizationsInfoPage.getDeletebtn().click();
 		Thread.sleep(2000);
 		
+		webdriver_utillity.pageLoadTimeout();
+		
 		webdriver_utillity.acceptAlert();
 
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 
 		WebElement orgHeader = organizationsInfoPage.getDeleorgverifyheader();
 		Thread.sleep(2000);

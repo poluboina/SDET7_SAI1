@@ -15,7 +15,7 @@ import com.github.javafaker.Faker;
 public class TC_03SaiOrgHeaderVerTest extends BaseUtility{
 	
 	
-	@Test(priority = 3,retryAnalyzer = RetryAnalyzer_1.class)
+	@Test(groups = "regression",priority = 3,retryAnalyzer = RetryAnalyzer_1.class)
 	
 	 public void saiOrgHeaderVerTest() throws InterruptedException {
 	

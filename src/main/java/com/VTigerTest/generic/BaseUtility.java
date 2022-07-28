@@ -31,13 +31,13 @@ public class BaseUtility implements IAutoconstants{
 	
 	
 
-	@BeforeSuite
+	@BeforeSuite(groups = {"smoke","regression"})
 	public void connectDatabase() {
 
 		System.out.println("Database is coonected");	
 	}
 
-	@BeforeClass
+	@BeforeClass(groups = {"smoke","regression"})
 	public void lanchBrowser() throws Throwable {
 
 		
@@ -66,7 +66,7 @@ public class BaseUtility implements IAutoconstants{
 		sdriver=driver;
 	}
 
-	@BeforeMethod
+	@BeforeMethod(groups = {"smoke","regression"})
 	public void login() throws IOException {
 
 		LoginPage loginpage = new LoginPage(driver);
@@ -76,7 +76,7 @@ public class BaseUtility implements IAutoconstants{
 
 	}
 	
-	@AfterMethod
+	@AfterMethod(groups = {"smoke","regression"})
 	public void logout() {
 
 		HomePage homepage = new HomePage(driver);
@@ -84,14 +84,14 @@ public class BaseUtility implements IAutoconstants{
 		homepage.getSignoutlink();
 	}
 
-	@AfterClass
+	@AfterClass(groups = {"smoke","regression"})
 	public void closingBrowser() 
 	{
 		Webdriver_Utility dUtil=new Webdriver_Utility(driver);
 		dUtil.closeBrowser();
 	}
 
-	@AfterSuite
+	@AfterSuite(groups = {"smoke","regression"})
 	public void closeDatabase() {
 
 		System.out.println("closeDataBase");
