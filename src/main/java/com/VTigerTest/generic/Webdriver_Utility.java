@@ -6,6 +6,7 @@ import java.time.Duration;
 import java.util.Random;
 import java.util.Set;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -81,7 +82,8 @@ public class Webdriver_Utility {
 	}
 
 	public void acceptAlert() {
-		driver.switchTo().alert().accept();
+		Alert al=driver.switchTo().alert();
+		al.accept();
 		
 	}
 	

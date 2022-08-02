@@ -37,6 +37,7 @@ public class TC_04SaiOrgDelTest extends BaseUtility {
 		organizationsInfoPage.getCreateorglinkbtn().click();
 
 		CreateOrgPage createOrgPage=new CreateOrgPage(driver);
+		
 		createOrgPage.getOrgnametxtbox().sendKeys(orgname);
 
 		createOrgPage.getSavebtn().click();
@@ -53,7 +54,7 @@ public class TC_04SaiOrgDelTest extends BaseUtility {
 			e.printStackTrace();
 		}
 
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		organizationsInfoPage.getSelectorgtypeDD().click();
 
 		webdriver_utillity.selectDD(organizationsInfoPage.getSelectorgtypeDD(), 1);
@@ -69,13 +70,14 @@ public class TC_04SaiOrgDelTest extends BaseUtility {
 		Thread.sleep(2000);
 		
 		webdriver_utillity.pageLoadTimeout();
+		Thread.sleep(3000);
 		
 		webdriver_utillity.acceptAlert();
 
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 
 		WebElement orgHeader = organizationsInfoPage.getDeleorgverifyheader();
-		Thread.sleep(2000);
+		
 	
 		if(orgHeader.isDisplayed()) {
 			System.out.println("TestCase is Passed");
