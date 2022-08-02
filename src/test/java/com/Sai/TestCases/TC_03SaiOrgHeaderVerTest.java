@@ -41,10 +41,6 @@ public class TC_03SaiOrgHeaderVerTest extends BaseUtility{
 	createOrgPage.getOrgnametxtbox().sendKeys(orgname);
 
 	createOrgPage.getSavebtn().click();
-	
-	
-	
-	
 	Thread.sleep(5000);
 	WebElement orgHeaderverify = organizationsInfoPage.getOrgctdhedverfiy();
 	

@@ -70,7 +70,7 @@ public class TC_04SaiOrgDelTest extends BaseUtility {
 		Thread.sleep(2000);
 		
 		webdriver_utillity.pageLoadTimeout();
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 		
 		webdriver_utillity.acceptAlert();
 
