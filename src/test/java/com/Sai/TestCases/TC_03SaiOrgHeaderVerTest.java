@@ -48,7 +48,7 @@ public class TC_03SaiOrgHeaderVerTest extends BaseUtility{
 	Thread.sleep(5000);
 	WebElement orgHeaderverify = organizationsInfoPage.getOrgctdhedverfiy();
 	
-	
+	Thread.sleep(2000);
 	
 	if(orgHeaderverify.isDisplayed()) {
 		
