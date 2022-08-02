@@ -8,7 +8,7 @@ public class Demo {
 		String newstr=str.replaceAll("[^a-zA-Z0-9]","");
 
 		System.out.println(newstr);
-
+		System.out.println("hiiii..args.");
 
 		//		String str2=newstr.replaceAll(",", "");
 		//		System.out.println(str2);

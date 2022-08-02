@@ -67,7 +67,7 @@ public class TC_02SaiCamDelTest extends BaseUtility{
 		String str =campainInfoPage.getDelheadermsg().getText();
 		String s1=(campname);
 		
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		if(s1.contains(str)) {
 			System.out.println("Campaign is not deleted Test Fail");
 		}
