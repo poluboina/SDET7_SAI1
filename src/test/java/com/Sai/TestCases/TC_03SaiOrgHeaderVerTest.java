@@ -42,7 +42,7 @@ public class TC_03SaiOrgHeaderVerTest extends BaseUtility{
 
 	createOrgPage.getSavebtn().click();
 	
-	webdriver_utillity.refreshPage();
+	
 	
 	
 	Thread.sleep(5000);
