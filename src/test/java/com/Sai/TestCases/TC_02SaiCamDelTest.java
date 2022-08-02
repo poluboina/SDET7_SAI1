@@ -59,7 +59,7 @@ public class TC_02SaiCamDelTest extends BaseUtility{
 		campainInfoPage.getCheckboxbtn().click();
 
 		campainInfoPage.getDeletebtn().click();
-
+		Thread.sleep(2000);
 		webdriver_Utility.acceptAlert();
 		Thread.sleep(3000);
 		webdriver_Utility.pageLoadTimeout();
