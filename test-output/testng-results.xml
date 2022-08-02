@@ -1,44 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="8" total="13" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-02T18:12:44 IST" name="Default suite" finished-at="2022-08-02T18:13:23 IST" duration-ms="39221">
+  <suite started-at="2022-08-02T18:23:58 IST" name="Suite" finished-at="2022-08-02T18:26:38 IST" duration-ms="159526">
     <groups>
+      <group name="regression">
+        <method signature="TC_03SaiOrgHeaderVerTest.saiOrgHeaderVerTest()[pri:3, instance:com.Sai.TestCases.TC_03SaiOrgHeaderVerTest@53fb3dab]" name="saiOrgHeaderVerTest" class="com.Sai.TestCases.TC_03SaiOrgHeaderVerTest"/>
+        <method signature="TC_04SaiOrgDelTest.createOrgTest()[pri:4, instance:com.Sai.TestCases.TC_04SaiOrgDelTest@548d708a]" name="createOrgTest" class="com.Sai.TestCases.TC_04SaiOrgDelTest"/>
+        <method signature="TC_05SaiCampHeaderVerTest.saiCampHeaderVerTest()[pri:5, instance:com.Sai.TestCases.TC_05SaiCampHeaderVerTest@4b013c76]" name="saiCampHeaderVerTest" class="com.Sai.TestCases.TC_05SaiCampHeaderVerTest"/>
+      </group> <!-- regression -->
       <group name="smoke">
-        <method signature="TC_02SaiCamDelTest.saiConDelTest()[pri:2, instance:com.Sai.TestCases.TC_02SaiCamDelTest@7161d8d1]" name="saiConDelTest" class="com.Sai.TestCases.TC_02SaiCamDelTest"/>
+        <method signature="TC_01SaiConTest.saiConTest()[pri:1, instance:com.Sai.TestCases.TC_01SaiConTest@4be29ed9]" name="saiConTest" class="com.Sai.TestCases.TC_01SaiConTest"/>
+        <method signature="TC_02SaiCamDelTest.saiConDelTest()[pri:2, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" name="saiConDelTest" class="com.Sai.TestCases.TC_02SaiCamDelTest"/>
+        <method signature="TC_05SaiCampHeaderVerTest.saiCampHeaderVerTest()[pri:5, instance:com.Sai.TestCases.TC_05SaiCampHeaderVerTest@4b013c76]" name="saiCampHeaderVerTest" class="com.Sai.TestCases.TC_05SaiCampHeaderVerTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2022-08-02T18:12:44 IST" name="Default test" finished-at="2022-08-02T18:13:23 IST" duration-ms="39221">
-      <class name="com.Sai.TestCases.TC_02SaiCamDelTest">
-        <test-method is-config="true" signature="connectDatabase()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@7161d8d1]" started-at="2022-08-02T18:12:44 IST" name="connectDatabase" finished-at="2022-08-02T18:12:44 IST" duration-ms="20" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- connectDatabase -->
-        <test-method is-config="true" signature="lanchBrowser()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@7161d8d1]" started-at="2022-08-02T18:12:44 IST" name="lanchBrowser" finished-at="2022-08-02T18:12:49 IST" duration-ms="5370" status="PASS">
+    <test started-at="2022-08-02T18:23:58 IST" name="Test" finished-at="2022-08-02T18:26:38 IST" duration-ms="159526">
+      <class name="com.Sai.TestCases.TC_01SaiConTest">
+        <test-method is-config="true" signature="lanchBrowser()[pri:0, instance:com.Sai.TestCases.TC_01SaiConTest@4be29ed9]" started-at="2022-08-02T18:24:39 IST" name="lanchBrowser" finished-at="2022-08-02T18:24:41 IST" duration-ms="2763" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@7161d8d1]" started-at="2022-08-02T18:12:49 IST" name="login" finished-at="2022-08-02T18:12:53 IST" duration-ms="3604" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Sai.TestCases.TC_01SaiConTest@4be29ed9]" started-at="2022-08-02T18:24:41 IST" name="login" finished-at="2022-08-02T18:24:45 IST" duration-ms="3184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="saiConDelTest()[pri:2, instance:com.Sai.TestCases.TC_02SaiCamDelTest@7161d8d1]" started-at="2022-08-02T18:12:53 IST" name="saiConDelTest" finished-at="2022-08-02T18:13:22 IST" duration-ms="29215" status="PASS">
+        <test-method signature="saiConTest()[pri:1, instance:com.Sai.TestCases.TC_01SaiConTest@4be29ed9]" started-at="2022-08-02T18:24:45 IST" name="saiConTest" finished-at="2022-08-02T18:25:18 IST" duration-ms="33201" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- saiConDelTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@7161d8d1]" started-at="2022-08-02T18:13:23 IST" name="logout" finished-at="2022-08-02T18:13:23 IST" duration-ms="51" status="PASS">
+        </test-method> <!-- saiConTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Sai.TestCases.TC_01SaiConTest@4be29ed9]" started-at="2022-08-02T18:25:18 IST" name="logout" finished-at="2022-08-02T18:25:18 IST" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@7161d8d1]" started-at="2022-08-02T18:13:23 IST" name="closingBrowser" finished-at="2022-08-02T18:13:23 IST" duration-ms="214" status="PASS">
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.Sai.TestCases.TC_01SaiConTest@4be29ed9]" started-at="2022-08-02T18:25:18 IST" name="closingBrowser" finished-at="2022-08-02T18:25:18 IST" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
-        <test-method is-config="true" signature="closeDatabase()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@7161d8d1]" started-at="2022-08-02T18:13:23 IST" name="closeDatabase" finished-at="2022-08-02T18:13:23 IST" duration-ms="0" status="PASS">
+      </class> <!-- com.Sai.TestCases.TC_01SaiConTest -->
+      <class name="com.Sai.TestCases.TC_02SaiCamDelTest">
+        <test-method is-config="true" signature="connectDatabase()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T18:23:58 IST" name="connectDatabase" finished-at="2022-08-02T18:23:58 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDatabase -->
+        <test-method is-config="true" signature="lanchBrowser()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T18:23:59 IST" name="lanchBrowser" finished-at="2022-08-02T18:24:04 IST" duration-ms="5256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T18:24:04 IST" name="login" finished-at="2022-08-02T18:24:08 IST" duration-ms="3503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="saiConDelTest()[pri:2, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T18:24:08 IST" name="saiConDelTest" finished-at="2022-08-02T18:24:38 IST" duration-ms="30493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saiConDelTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T18:24:38 IST" name="logout" finished-at="2022-08-02T18:24:39 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T18:24:39 IST" name="closingBrowser" finished-at="2022-08-02T18:24:39 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closeDatabase()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T18:26:38 IST" name="closeDatabase" finished-at="2022-08-02T18:26:38 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDatabase -->
       </class> <!-- com.Sai.TestCases.TC_02SaiCamDelTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.Sai.TestCases.TC_04SaiOrgDelTest">
+        <test-method is-config="true" signature="lanchBrowser()[pri:0, instance:com.Sai.TestCases.TC_04SaiOrgDelTest@548d708a]" started-at="2022-08-02T18:25:18 IST" name="lanchBrowser" finished-at="2022-08-02T18:25:22 IST" duration-ms="3175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Sai.TestCases.TC_04SaiOrgDelTest@548d708a]" started-at="2022-08-02T18:25:22 IST" name="login" finished-at="2022-08-02T18:25:24 IST" duration-ms="2813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createOrgTest()[pri:4, instance:com.Sai.TestCases.TC_04SaiOrgDelTest@548d708a]" started-at="2022-08-02T18:25:24 IST" name="createOrgTest" finished-at="2022-08-02T18:25:53 IST" duration-ms="28930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Sai.TestCases.TC_04SaiOrgDelTest@548d708a]" started-at="2022-08-02T18:25:54 IST" name="logout" finished-at="2022-08-02T18:25:54 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.Sai.TestCases.TC_04SaiOrgDelTest@548d708a]" started-at="2022-08-02T18:25:54 IST" name="closingBrowser" finished-at="2022-08-02T18:25:54 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- com.Sai.TestCases.TC_04SaiOrgDelTest -->
+      <class name="com.Sai.TestCases.TC_05SaiCampHeaderVerTest">
+        <test-method is-config="true" signature="lanchBrowser()[pri:0, instance:com.Sai.TestCases.TC_05SaiCampHeaderVerTest@4b013c76]" started-at="2022-08-02T18:25:54 IST" name="lanchBrowser" finished-at="2022-08-02T18:25:57 IST" duration-ms="2839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Sai.TestCases.TC_05SaiCampHeaderVerTest@4b013c76]" started-at="2022-08-02T18:25:57 IST" name="login" finished-at="2022-08-02T18:26:00 IST" duration-ms="2976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="saiCampHeaderVerTest()[pri:5, instance:com.Sai.TestCases.TC_05SaiCampHeaderVerTest@4b013c76]" started-at="2022-08-02T18:26:00 IST" name="saiCampHeaderVerTest" finished-at="2022-08-02T18:26:13 IST" duration-ms="13723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saiCampHeaderVerTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Sai.TestCases.TC_05SaiCampHeaderVerTest@4b013c76]" started-at="2022-08-02T18:26:14 IST" name="logout" finished-at="2022-08-02T18:26:14 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.Sai.TestCases.TC_05SaiCampHeaderVerTest@4b013c76]" started-at="2022-08-02T18:26:14 IST" name="closingBrowser" finished-at="2022-08-02T18:26:14 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- com.Sai.TestCases.TC_05SaiCampHeaderVerTest -->
+      <class name="com.Sai.TestCases.TC_03SaiOrgHeaderVerTest">
+        <test-method is-config="true" signature="lanchBrowser()[pri:0, instance:com.Sai.TestCases.TC_03SaiOrgHeaderVerTest@53fb3dab]" started-at="2022-08-02T18:26:14 IST" name="lanchBrowser" finished-at="2022-08-02T18:26:17 IST" duration-ms="3170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Sai.TestCases.TC_03SaiOrgHeaderVerTest@53fb3dab]" started-at="2022-08-02T18:26:17 IST" name="login" finished-at="2022-08-02T18:26:20 IST" duration-ms="2729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="saiOrgHeaderVerTest()[pri:3, instance:com.Sai.TestCases.TC_03SaiOrgHeaderVerTest@53fb3dab]" started-at="2022-08-02T18:26:20 IST" name="saiOrgHeaderVerTest" finished-at="2022-08-02T18:26:37 IST" duration-ms="17779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saiOrgHeaderVerTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Sai.TestCases.TC_03SaiOrgHeaderVerTest@53fb3dab]" started-at="2022-08-02T18:26:38 IST" name="logout" finished-at="2022-08-02T18:26:38 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.Sai.TestCases.TC_03SaiOrgHeaderVerTest@53fb3dab]" started-at="2022-08-02T18:26:38 IST" name="closingBrowser" finished-at="2022-08-02T18:26:38 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- com.Sai.TestCases.TC_03SaiOrgHeaderVerTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
