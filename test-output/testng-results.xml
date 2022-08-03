@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="13" passed="5" failed="0" skipped="0">
+<testng-results ignored="8" total="13" passed="3" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-02T18:23:58 IST" name="Suite" finished-at="2022-08-02T18:26:38 IST" duration-ms="159526">
+  <suite started-at="2022-08-02T23:45:15 IST" name="Suite" finished-at="2022-08-02T23:48:36 IST" duration-ms="200531">
     <groups>
       <group name="regression">
         <method signature="TC_03SaiOrgHeaderVerTest.saiOrgHeaderVerTest()[pri:3, instance:com.Sai.TestCases.TC_03SaiOrgHeaderVerTest@53fb3dab]" name="saiOrgHeaderVerTest" class="com.Sai.TestCases.TC_03SaiOrgHeaderVerTest"/>
@@ -15,121 +15,267 @@
         <method signature="TC_05SaiCampHeaderVerTest.saiCampHeaderVerTest()[pri:5, instance:com.Sai.TestCases.TC_05SaiCampHeaderVerTest@4b013c76]" name="saiCampHeaderVerTest" class="com.Sai.TestCases.TC_05SaiCampHeaderVerTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2022-08-02T18:23:58 IST" name="Test" finished-at="2022-08-02T18:26:38 IST" duration-ms="159526">
+    <test started-at="2022-08-02T23:45:15 IST" name="Test" finished-at="2022-08-02T23:48:36 IST" duration-ms="200531">
       <class name="com.Sai.TestCases.TC_01SaiConTest">
-        <test-method is-config="true" signature="lanchBrowser()[pri:0, instance:com.Sai.TestCases.TC_01SaiConTest@4be29ed9]" started-at="2022-08-02T18:24:39 IST" name="lanchBrowser" finished-at="2022-08-02T18:24:41 IST" duration-ms="2763" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser()[pri:0, instance:com.Sai.TestCases.TC_01SaiConTest@4be29ed9]" started-at="2022-08-02T23:46:13 IST" name="lanchBrowser" finished-at="2022-08-02T23:46:17 IST" duration-ms="3320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.Sai.TestCases.TC_01SaiConTest@4be29ed9]" started-at="2022-08-02T18:24:41 IST" name="login" finished-at="2022-08-02T18:24:45 IST" duration-ms="3184" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Sai.TestCases.TC_01SaiConTest@4be29ed9]" started-at="2022-08-02T23:46:17 IST" name="login" finished-at="2022-08-02T23:46:21 IST" duration-ms="4205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="saiConTest()[pri:1, instance:com.Sai.TestCases.TC_01SaiConTest@4be29ed9]" started-at="2022-08-02T18:24:45 IST" name="saiConTest" finished-at="2022-08-02T18:25:18 IST" duration-ms="33201" status="PASS">
+        <test-method signature="saiConTest()[pri:1, instance:com.Sai.TestCases.TC_01SaiConTest@4be29ed9]" started-at="2022-08-02T23:46:21 IST" name="saiConTest" finished-at="2022-08-02T23:46:53 IST" duration-ms="32370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saiConTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.Sai.TestCases.TC_01SaiConTest@4be29ed9]" started-at="2022-08-02T18:25:18 IST" name="logout" finished-at="2022-08-02T18:25:18 IST" duration-ms="49" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Sai.TestCases.TC_01SaiConTest@4be29ed9]" started-at="2022-08-02T23:46:54 IST" name="logout" finished-at="2022-08-02T23:46:54 IST" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.Sai.TestCases.TC_01SaiConTest@4be29ed9]" started-at="2022-08-02T18:25:18 IST" name="closingBrowser" finished-at="2022-08-02T18:25:18 IST" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.Sai.TestCases.TC_01SaiConTest@4be29ed9]" started-at="2022-08-02T23:46:54 IST" name="closingBrowser" finished-at="2022-08-02T23:46:54 IST" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
       </class> <!-- com.Sai.TestCases.TC_01SaiConTest -->
       <class name="com.Sai.TestCases.TC_02SaiCamDelTest">
-        <test-method is-config="true" signature="connectDatabase()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T18:23:58 IST" name="connectDatabase" finished-at="2022-08-02T18:23:58 IST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="connectDatabase()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T23:45:15 IST" name="connectDatabase" finished-at="2022-08-02T23:45:15 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectDatabase -->
-        <test-method is-config="true" signature="lanchBrowser()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T18:23:59 IST" name="lanchBrowser" finished-at="2022-08-02T18:24:04 IST" duration-ms="5256" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T23:45:16 IST" name="lanchBrowser" finished-at="2022-08-02T23:45:21 IST" duration-ms="4668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T18:24:04 IST" name="login" finished-at="2022-08-02T18:24:08 IST" duration-ms="3503" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T23:45:21 IST" name="login" finished-at="2022-08-02T23:45:26 IST" duration-ms="5424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="saiConDelTest()[pri:2, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T18:24:08 IST" name="saiConDelTest" finished-at="2022-08-02T18:24:38 IST" duration-ms="30493" status="PASS">
+        <test-method signature="saiConDelTest()[pri:2, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T23:45:26 IST" name="saiConDelTest" finished-at="2022-08-02T23:46:09 IST" duration-ms="42825" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='genHeaderSmall']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-C09100BS', ip: '192.168.23.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [24680b83918bf0143cb2eb386b6654bb, findElement {using=xpath, value=//span[@class='genHeaderSmall']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\saikr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55472/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 24680b83918bf0143cb2eb386b6654bb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='genHeaderSmall']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-C09100BS', ip: '192.168.23.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [24680b83918bf0143cb2eb386b6654bb, findElement {using=xpath, value=//span[@class='genHeaderSmall']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\saikr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55472/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 24680b83918bf0143cb2eb386b6654bb
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy22.getText(Unknown Source)
+at com.Sai.TestCases.TC_02SaiCamDelTest.saiConDelTest(TC_02SaiCamDelTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saiConDelTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T18:24:38 IST" name="logout" finished-at="2022-08-02T18:24:39 IST" duration-ms="49" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T23:46:09 IST" name="logout" finished-at="2022-08-02T23:46:09 IST" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T18:24:39 IST" name="closingBrowser" finished-at="2022-08-02T18:24:39 IST" duration-ms="218" status="PASS">
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T23:46:09 IST" name="closingBrowser" finished-at="2022-08-02T23:46:13 IST" duration-ms="4171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
-        <test-method is-config="true" signature="closeDatabase()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T18:26:38 IST" name="closeDatabase" finished-at="2022-08-02T18:26:38 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeDatabase()[pri:0, instance:com.Sai.TestCases.TC_02SaiCamDelTest@74e28667]" started-at="2022-08-02T23:48:36 IST" name="closeDatabase" finished-at="2022-08-02T23:48:36 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDatabase -->
       </class> <!-- com.Sai.TestCases.TC_02SaiCamDelTest -->
       <class name="com.Sai.TestCases.TC_04SaiOrgDelTest">
-        <test-method is-config="true" signature="lanchBrowser()[pri:0, instance:com.Sai.TestCases.TC_04SaiOrgDelTest@548d708a]" started-at="2022-08-02T18:25:18 IST" name="lanchBrowser" finished-at="2022-08-02T18:25:22 IST" duration-ms="3175" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser()[pri:0, instance:com.Sai.TestCases.TC_04SaiOrgDelTest@548d708a]" started-at="2022-08-02T23:46:54 IST" name="lanchBrowser" finished-at="2022-08-02T23:46:57 IST" duration-ms="3360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.Sai.TestCases.TC_04SaiOrgDelTest@548d708a]" started-at="2022-08-02T18:25:22 IST" name="login" finished-at="2022-08-02T18:25:24 IST" duration-ms="2813" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Sai.TestCases.TC_04SaiOrgDelTest@548d708a]" started-at="2022-08-02T23:46:57 IST" name="login" finished-at="2022-08-02T23:47:01 IST" duration-ms="4066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="createOrgTest()[pri:4, instance:com.Sai.TestCases.TC_04SaiOrgDelTest@548d708a]" started-at="2022-08-02T18:25:24 IST" name="createOrgTest" finished-at="2022-08-02T18:25:53 IST" duration-ms="28930" status="PASS">
+        <test-method signature="createOrgTest()[pri:4, instance:com.Sai.TestCases.TC_04SaiOrgDelTest@548d708a]" started-at="2022-08-02T23:47:01 IST" name="createOrgTest" finished-at="2022-08-02T23:47:46 IST" duration-ms="44634" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='genHeaderSmall']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-C09100BS', ip: '192.168.23.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [65485f8102cc91a26d594781fdc1e86e, findElement {using=xpath, value=//span[@class='genHeaderSmall']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\saikr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55641/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 65485f8102cc91a26d594781fdc1e86e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='genHeaderSmall']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-C09100BS', ip: '192.168.23.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [65485f8102cc91a26d594781fdc1e86e, findElement {using=xpath, value=//span[@class='genHeaderSmall']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\saikr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55641/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 65485f8102cc91a26d594781fdc1e86e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy22.isDisplayed(Unknown Source)
+at com.Sai.TestCases.TC_04SaiOrgDelTest.createOrgTest(TC_04SaiOrgDelTest.java:82)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createOrgTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.Sai.TestCases.TC_04SaiOrgDelTest@548d708a]" started-at="2022-08-02T18:25:54 IST" name="logout" finished-at="2022-08-02T18:25:54 IST" duration-ms="48" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Sai.TestCases.TC_04SaiOrgDelTest@548d708a]" started-at="2022-08-02T23:47:46 IST" name="logout" finished-at="2022-08-02T23:47:46 IST" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.Sai.TestCases.TC_04SaiOrgDelTest@548d708a]" started-at="2022-08-02T18:25:54 IST" name="closingBrowser" finished-at="2022-08-02T18:25:54 IST" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.Sai.TestCases.TC_04SaiOrgDelTest@548d708a]" started-at="2022-08-02T23:47:46 IST" name="closingBrowser" finished-at="2022-08-02T23:47:46 IST" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
       </class> <!-- com.Sai.TestCases.TC_04SaiOrgDelTest -->
       <class name="com.Sai.TestCases.TC_05SaiCampHeaderVerTest">
-        <test-method is-config="true" signature="lanchBrowser()[pri:0, instance:com.Sai.TestCases.TC_05SaiCampHeaderVerTest@4b013c76]" started-at="2022-08-02T18:25:54 IST" name="lanchBrowser" finished-at="2022-08-02T18:25:57 IST" duration-ms="2839" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser()[pri:0, instance:com.Sai.TestCases.TC_05SaiCampHeaderVerTest@4b013c76]" started-at="2022-08-02T23:47:46 IST" name="lanchBrowser" finished-at="2022-08-02T23:47:49 IST" duration-ms="3029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.Sai.TestCases.TC_05SaiCampHeaderVerTest@4b013c76]" started-at="2022-08-02T18:25:57 IST" name="login" finished-at="2022-08-02T18:26:00 IST" duration-ms="2976" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Sai.TestCases.TC_05SaiCampHeaderVerTest@4b013c76]" started-at="2022-08-02T23:47:49 IST" name="login" finished-at="2022-08-02T23:47:54 IST" duration-ms="4868" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="saiCampHeaderVerTest()[pri:5, instance:com.Sai.TestCases.TC_05SaiCampHeaderVerTest@4b013c76]" started-at="2022-08-02T18:26:00 IST" name="saiCampHeaderVerTest" finished-at="2022-08-02T18:26:13 IST" duration-ms="13723" status="PASS">
+        <test-method signature="saiCampHeaderVerTest()[pri:5, instance:com.Sai.TestCases.TC_05SaiCampHeaderVerTest@4b013c76]" started-at="2022-08-02T23:47:54 IST" name="saiCampHeaderVerTest" finished-at="2022-08-02T23:48:09 IST" duration-ms="14587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saiCampHeaderVerTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.Sai.TestCases.TC_05SaiCampHeaderVerTest@4b013c76]" started-at="2022-08-02T18:26:14 IST" name="logout" finished-at="2022-08-02T18:26:14 IST" duration-ms="49" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Sai.TestCases.TC_05SaiCampHeaderVerTest@4b013c76]" started-at="2022-08-02T23:48:09 IST" name="logout" finished-at="2022-08-02T23:48:09 IST" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.Sai.TestCases.TC_05SaiCampHeaderVerTest@4b013c76]" started-at="2022-08-02T18:26:14 IST" name="closingBrowser" finished-at="2022-08-02T18:26:14 IST" duration-ms="118" status="PASS">
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.Sai.TestCases.TC_05SaiCampHeaderVerTest@4b013c76]" started-at="2022-08-02T23:48:09 IST" name="closingBrowser" finished-at="2022-08-02T23:48:09 IST" duration-ms="144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
       </class> <!-- com.Sai.TestCases.TC_05SaiCampHeaderVerTest -->
       <class name="com.Sai.TestCases.TC_03SaiOrgHeaderVerTest">
-        <test-method is-config="true" signature="lanchBrowser()[pri:0, instance:com.Sai.TestCases.TC_03SaiOrgHeaderVerTest@53fb3dab]" started-at="2022-08-02T18:26:14 IST" name="lanchBrowser" finished-at="2022-08-02T18:26:17 IST" duration-ms="3170" status="PASS">
+        <test-method is-config="true" signature="lanchBrowser()[pri:0, instance:com.Sai.TestCases.TC_03SaiOrgHeaderVerTest@53fb3dab]" started-at="2022-08-02T23:48:09 IST" name="lanchBrowser" finished-at="2022-08-02T23:48:12 IST" duration-ms="3130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanchBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.Sai.TestCases.TC_03SaiOrgHeaderVerTest@53fb3dab]" started-at="2022-08-02T18:26:17 IST" name="login" finished-at="2022-08-02T18:26:20 IST" duration-ms="2729" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Sai.TestCases.TC_03SaiOrgHeaderVerTest@53fb3dab]" started-at="2022-08-02T23:48:12 IST" name="login" finished-at="2022-08-02T23:48:17 IST" duration-ms="5029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="saiOrgHeaderVerTest()[pri:3, instance:com.Sai.TestCases.TC_03SaiOrgHeaderVerTest@53fb3dab]" started-at="2022-08-02T18:26:20 IST" name="saiOrgHeaderVerTest" finished-at="2022-08-02T18:26:37 IST" duration-ms="17779" status="PASS">
+        <test-method signature="saiOrgHeaderVerTest()[pri:3, instance:com.Sai.TestCases.TC_03SaiOrgHeaderVerTest@53fb3dab]" started-at="2022-08-02T23:48:17 IST" name="saiOrgHeaderVerTest" finished-at="2022-08-02T23:48:35 IST" duration-ms="18136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saiOrgHeaderVerTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.Sai.TestCases.TC_03SaiOrgHeaderVerTest@53fb3dab]" started-at="2022-08-02T18:26:38 IST" name="logout" finished-at="2022-08-02T18:26:38 IST" duration-ms="53" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Sai.TestCases.TC_03SaiOrgHeaderVerTest@53fb3dab]" started-at="2022-08-02T23:48:36 IST" name="logout" finished-at="2022-08-02T23:48:36 IST" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.Sai.TestCases.TC_03SaiOrgHeaderVerTest@53fb3dab]" started-at="2022-08-02T18:26:38 IST" name="closingBrowser" finished-at="2022-08-02T18:26:38 IST" duration-ms="118" status="PASS">
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.Sai.TestCases.TC_03SaiOrgHeaderVerTest@53fb3dab]" started-at="2022-08-02T23:48:36 IST" name="closingBrowser" finished-at="2022-08-02T23:48:36 IST" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
